@@ -2,17 +2,18 @@
 It is Basic Dapp for Blockchain, Creation using Solidity Smartcontract+Truffle+JS using HTML+CSS as front end <br />
 
 # Installation: <br />
-1.First, update and install packages <br />
+1.First update and install packages <br />
 ```
-      sudo apt-get update && sudo apt-get -y upgrade <br />
-      sudo apt-get -y install curl git vim build-essential <br />
-      ```
+      sudo apt-get update && sudo apt-get -y upgrade
+      sudo apt-get -y install curl git vim build-essential
+```
 2.Install NodeJs to execute the DAPP <br />
+
 ```
       curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - <br />
       sudo apt-get install -y nodejs <br />
       sudo npm install -g express <br />
-      ```
+```
 3. Install Truffle packages <br />
       ```sudo npm install -g truffle <br />```
 4. Install testrpc(testprc uses ethereumjs to simulate full client behavior and make developing Ethereum) <br />
