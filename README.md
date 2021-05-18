@@ -23,16 +23,16 @@ sudo npm install -g express
  clone the repository to your project Directory <br />
 
 # Execution:
-1. Open a terminal & change the directory to SimpleInterest-Dapp & run following Commands
+1. Open a terminal & change the directory to SimpleInterest-Dapp & run following Commands <br />
       ```truffle compile # compiling solidity files```
 
-2. Open a another terminal and run TestRPC as Dummy Blockchain
-      ```testrpc <br />```
+2. Open a another terminal and run TestRPC as Dummy Blockchain <br />
+      ```testrpc```
    
 3. Again open a first Terminal for Remaining Execution <br />
 ```
-truffle migrate <br />
-npm run dev <br />
+truffle migrate
+npm run dev
 ```
 pick the url: http://localhost:8080 <br />
 4. Then, Paste url in Browser
